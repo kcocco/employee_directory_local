@@ -3,7 +3,7 @@ var dbCreated = false;
 
 var scroll = new iScroll('wrapper', { vScrollbar: false, hScrollbar:false, hScroll: false });
 
-// document.addEventListener("deviceready", onDeviceReady, false);
+document.addEventListener("deviceready", onDeviceReady, false);
 onDeviceReady();
 
 function onDeviceReady() {
